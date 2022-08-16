@@ -25,19 +25,19 @@ public class Assest2 {
 		   e2.setName("Shiavm");
 		   e2.setDesignation("SDE");
 		   e2.setSalary(100000);
- Employee e3=new Employee();
-          e3.setEmpno(103);
-         e3.setName("Binod);
-         e3.setDesignation("SDE");
-         e3.setSalary(100000);
+               Employee e3=new Employee();
+               e3.setEmpno(103);
+               e3.setName("Binod);
+               e3.setDesignation("SDE");
+                e3.setSalary(100000);
 
 		em.persist(e1);
 
-		    em.persist(e2);
+		 em.persist(e2);
 
-		    em.persist(e3);
+		 em.persist(e3);
 
-		    em.getTransaction().commit();
+		  em.getTransaction().commit();
 		    
 		   
 		    Query q= em.createQuery("from Employee");
