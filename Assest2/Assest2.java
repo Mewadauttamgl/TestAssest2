@@ -26,12 +26,12 @@ public class Assest2 {
 		   e2.setDesignation("SDE");
 		   e2.setSalary(100000);
  Employee e3=new Employee();
-          e3.setEmpno(102);
-         e3.setName("Shiavm");
+          e3.setEmpno(103);
+         e3.setName("Binod);
          e3.setDesignation("SDE");
          e3.setSalary(100000);
 
-		  		   em.persist(e1);
+		em.persist(e1);
 
 		    em.persist(e2);
 
