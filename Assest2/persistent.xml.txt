@@ -8,7 +8,7 @@
 
 <persistence-unit name="Employee_details">
 
-   <class>com.java.jpa.Assest2</class>
+   <class>com.java.jpa.Employee</class>
 
     <properties>
 
