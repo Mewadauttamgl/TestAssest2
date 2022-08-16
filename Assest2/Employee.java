@@ -21,17 +21,13 @@ public class Employee {
 
 	private double salary;
 
-	public Employee(int empno, String name, String designation, double salary, ) {
+	public Employee(int empno, String name, String designation, double salary) {
 		super();
 		this.empno = empno;
 		this.name = name;
 		this.designation = designation;
 		this.salary = salary;
 		
-	}
-
-	public Employee() {
-		super();
 	}
 
 	public int getEmpno() {
