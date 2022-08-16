@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 
-public class HelloController4 {
+public class Assest1 {
   @RequestMapping("/hello")
 
   public String display(@RequestParam("name") String name,@RequestParam("pass") String pass,@RequestParam("email") String email,@RequestParam("addr") String addr,
